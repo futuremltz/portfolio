@@ -1,33 +1,73 @@
-# Portfólio de Tecnologia
+# 💼 Portfólio de Tecnologia
 
-Olá! Sou estudante de tecnologia e gosto de aprender construindo. Este repositório reúne meus projetos em várias áreas, cada uma com sua própria pasta e README.
+Olá! Sou o **João Victor**, estudante de Ciência da Computação na Unisinos, e gosto de aprender construindo. Este repositório é o **índice dos meus projetos**: cada projeto vive no seu próprio repositório, e aqui fica o mapa para encontrar tudo.
 
-## Destaques
+- 📂 **Projetos prontos**: listados abaixo, por área
+- 🚧 **Em andamento**: o que estou construindo agora
+- 🗺️ **[Roadmap](./ROADMAP.md)**: os 160 projetos que planejo fazer, do básico ao avançado
 
-Os projetos mais completos para começar a olhar:
+## ⭐ Destaques
 
-1. _[Projeto em destaque 1](./caminho)_ — uma linha sobre o que é
-2. _[Projeto em destaque 2](./caminho)_ — uma linha sobre o que é
-3. _[Projeto em destaque 3](./caminho)_ — uma linha sobre o que é
-
-## Áreas
-
-| Área | Projetos planejados | Concluídos |
+| Projeto | O que é | Linguagem |
 | --- | --- | --- |
-| [Desenvolvimento de Software](./desenvolvimento-de-software) | 17 | 0 |
-| [IA e Dados](./ia-e-dados) | 17 | 0 |
-| [Cibersegurança](./ciberseguranca) | 17 | 0 |
-| [DevOps e Cloud](./devops-e-cloud) | 11 | 0 |
-| [Sistemas Embarcados e IoT](./sistemas-embarcados-e-iot) | 11 | 0 |
-| [Desenvolvimento de Jogos](./desenvolvimento-de-jogos) | 11 | 0 |
-| [Computação Gráfica](./computacao-grafica) | 11 | 0 |
-| [Desenvolvimento Mobile](./desenvolvimento-mobile) | 11 | 0 |
-| [QA e Automação de Testes](./qa-e-automacao-de-testes) | 11 | 0 |
-| [Redes e Infraestrutura](./redes-e-infraestrutura) | 11 | 0 |
-| [Blockchain e Web3](./blockchain-e-web3) | 10 | 0 |
-| [Open Source](./open-source) | 10 | 0 |
-| [Áreas de Nicho](./areas-de-nicho) | 12 | 0 |
+| 🛰️ [IMORTAL-1 — Sistema de Bordo](https://github.com/futuremltz/IMORTAL-1-Sistema-de-Bordo) | Simulador do sistema de bordo de um satélite: sensores, estatísticas, alertas e relatório | C |
+| 💣 [Campo Minado](https://github.com/futuremltz/Campo-minado) | Jogo no terminal com tabuleiro 9x9, bombas aleatórias e revelação recursiva (flood fill) | C |
+| 🗂️ [Organizador de Arquivos](https://github.com/futuremltz/Organizador-de-Arquivos) | Organiza uma pasta automaticamente em subpastas por tipo de arquivo | Python |
+| 📒 [Agenda de Contatos](https://github.com/futuremltz/Agenda-de-Contatos) | Agenda no terminal com CRUD completo e favoritos | Python |
 
-## Linguagens que estou estudando
+## 🚧 Em andamento
+
+| Projeto | Área | Linguagem |
+| --- | --- | --- |
+| [Gerenciador de Tarefas CLI](./em-andamento/gerenciador-tarefas-cli) | Desenvolvimento de Software | Python |
+
+## 📂 Projetos por área
+
+### 🖥️ Desenvolvimento de Software
+
+| Projeto | O que é | Linguagem |
+| --- | --- | --- |
+| [Agenda de Contatos](https://github.com/futuremltz/Agenda-de-Contatos) | Agenda no terminal com CRUD completo e favoritos (desafio Rocketseat) | Python |
+| [Organizador de Arquivos](https://github.com/futuremltz/Organizador-de-Arquivos) | Automação que separa arquivos de uma pasta por tipo | Python |
+| [Calculadora de IMC](https://github.com/futuremltz/Calculadora-IMC) | IMC com diagnóstico por faixa etária e histórico em arquivo | Python |
+| [Conversor de Unidades](https://github.com/futuremltz/Conversor-de-Unidades) | Conversor multi-menu: medidas, dados, engenharia e câmbio | Python |
+| [Validador de Senha](https://github.com/futuremltz/Validador-de-Senha) | Analisa a força de uma senha e bloqueia após tentativas fracas | Python |
+| [Calculator in C](https://github.com/futuremltz/Calculator-in-C) | Calculadora de linha de comando com funções modulares | C |
+
+### 🛰️ Sistemas Embarcados e IoT
+
+| Projeto | O que é | Linguagem |
+| --- | --- | --- |
+| [IMORTAL-1 — Sistema de Bordo](https://github.com/futuremltz/IMORTAL-1-Sistema-de-Bordo) | Simulador do sistema de bordo de um satélite (trabalho de Algoritmos, Unisinos) | C |
+
+### 🎮 Desenvolvimento de Jogos
+
+| Projeto | O que é | Linguagem |
+| --- | --- | --- |
+| [Campo Minado](https://github.com/futuremltz/Campo-minado) | Campo Minado no terminal com flood fill (trabalho de Algoritmos, Unisinos) | C |
+
+> As outras áreas do [roadmap](./ROADMAP.md) (IA e Dados, Cibersegurança, DevOps, Mobile…) entram aqui assim que o primeiro projeto de cada uma ficar pronto.
+
+## 📚 Séries de estudo por linguagem
+
+Exercícios de fundamentos, em ordem de dificuldade:
+
+| Série | Conteúdo |
+| --- | --- |
+| 🐍 [Projetos em Python](https://github.com/futuremltz/Projetos-em-Python) | Série de exercícios, do básico ao avançado, cada um em seu repositório |
+| 🔧 [Projetos em C++](https://github.com/futuremltz/Projetos-em-cpp) | 20 projetos: fundamentos, STL, orientação a objetos e estruturas de dados |
+
+## 🔄 Como este portfólio funciona
+
+1. Escolho o próximo projeto no [roadmap](./ROADMAP.md) e marco como 🚧.
+2. Desenvolvo em `em-andamento/` (ou direto em um repositório novo).
+3. Quando fica pronto, o projeto ganha **repositório próprio** com README, GIF de demonstração e build automático.
+4. Ele entra na tabela da sua área aqui, e no roadmap vira ✅ com link.
+
+## 🛠️ Linguagens que estou estudando
 
 C, C++, Java, Python, TypeScript, Go, Rust, C#, Kotlin, Swift, Solidity, SQL e Bash.
+
+---
+
+📫 [LinkedIn](https://www.linkedin.com/in/militz/) · [Perfil no GitHub](https://github.com/futuremltz)
