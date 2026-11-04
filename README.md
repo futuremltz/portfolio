@@ -4,7 +4,7 @@ Olá! Sou o **João Victor**, estudante de Ciência da Computação na Unisinos,
 
 - 📂 **Projetos prontos**: listados abaixo, por área
 - 🚧 **Em andamento**: o que estou construindo agora
-- 🗺️ **[Roadmap](./ROADMAP.md)**: os 160 projetos que planejo fazer, do básico ao avançado
+- 🗺️ **[Roadmap](./ROADMAP.md)**: os 185 projetos que planejo fazer, do básico ao avançado
 
 ## ⭐ Destaques
 
@@ -33,6 +33,9 @@ Olá! Sou o **João Victor**, estudante de Ciência da Computação na Unisinos,
 | [Conversor de Unidades](https://github.com/futuremltz/Conversor-de-Unidades) | Conversor multi-menu: medidas, dados, engenharia e câmbio | Python |
 | [Validador de Senha](https://github.com/futuremltz/Validador-de-Senha) | Analisa a força de uma senha e bloqueia após tentativas fracas | Python |
 | [Calculator in C](https://github.com/futuremltz/Calculator-in-C) | Calculadora de linha de comando com funções modulares | C |
+| [Calculadora de IMC em C](https://github.com/futuremltz/Calculadora-IMC-em-C) | IMC com diagnóstico, validação do `scanf` e histórico em arquivo | C |
+| [Calculadora em C++](https://github.com/futuremltz/Calculadora-em-Cpp) | Calculadora com menu, validação de entrada e divisão por zero tratada | C++ |
+| [Conversor de Temperaturas](https://github.com/futuremltz/Conversor-de-Temperaturas) | Celsius, Fahrenheit e Kelvin, respeitando o zero absoluto | C++ |
 
 ### 🛰️ Sistemas Embarcados e IoT
 
@@ -45,6 +48,7 @@ Olá! Sou o **João Victor**, estudante de Ciência da Computação na Unisinos,
 | Projeto | O que é | Linguagem |
 | --- | --- | --- |
 | [Campo Minado](https://github.com/futuremltz/Campo-minado) | Campo Minado no terminal com flood fill (trabalho de Algoritmos, Unisinos) | C |
+| [Jogo de Adivinhação](https://github.com/futuremltz/Jogo-de-Adivinhacao) | Adivinhação com intervalo escolhido pelo jogador e tentativas calculadas | C++ |
 
 > As outras áreas do [roadmap](./ROADMAP.md) (IA e Dados, Cibersegurança, DevOps, Mobile…) entram aqui assim que o primeiro projeto de cada uma ficar pronto.
 
@@ -55,7 +59,8 @@ Exercícios de fundamentos, em ordem de dificuldade:
 | Série | Conteúdo |
 | --- | --- |
 | 🐍 [Projetos em Python](https://github.com/futuremltz/Projetos-em-Python) | Série de exercícios, do básico ao avançado, cada um em seu repositório |
-| 🔧 [Projetos em C++](https://github.com/futuremltz/Projetos-em-cpp) | 20 projetos: fundamentos, STL, orientação a objetos e estruturas de dados |
+| ⚙️ [Projetos em C](https://github.com/futuremltz/Projetos-em-C) | Série de exercícios em C, cada um em seu repositório |
+| 🔧 [Projetos em C++](https://github.com/futuremltz/Projetos-em-cpp) | Série de exercícios em C++, cada um em seu repositório |
 
 ## 🔄 Como este portfólio funciona
 

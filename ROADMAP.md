@@ -21,8 +21,9 @@ Lista de todos os projetos que planejo construir, organizados por área e em ord
 | [Blockchain e Web3](#blockchain-e-web3) | 10 |
 | [Open Source](#open-source) | 10 |
 | [Áreas de Nicho](#áreas-de-nicho) | 12 |
+| [Séries por linguagem](#séries-de-exercícios-por-linguagem) | 25 |
 
-**Total:** 160 projetos planejados.
+**Total:** 185 projetos planejados.
 
 ## Desenvolvimento de Software
 
@@ -276,6 +277,50 @@ Projetos em bioinformática, computação quântica e robótica, usando dados p�
 | 10 | Robótica: visão para robô | OpenCV, ROS 2 | Intermediário | 🔜 |
 | 11 | Robótica: navegação com SLAM | ROS 2, Nav2 | Avançado | 🔜 |
 | 12 | Robótica: robô físico | Raspberry Pi, ROS 2 | Avançado | 🔜 |
+
+## Séries de exercícios por linguagem
+
+Próximos exercícios das séries de fundamentos. Os já concluídos estão nos índices de cada linguagem: [Python](https://github.com/futuremltz/Projetos-em-Python), [C](https://github.com/futuremltz/Projetos-em-C) e [C++](https://github.com/futuremltz/Projetos-em-cpp).
+
+### 🐍 Python
+
+| # | Projeto | Foco principal | Status |
+| --- | --- | --- | --- |
+| 05 | Jogo de Adivinhação Inteligente | Módulo `random`, loops, lógica condicional, contadores | 🔜 |
+| 06 | Gerenciador de Tarefas em Memória (To-Do List Simples) | Listas, dicionários, funções, manipulação de dados em memória | 🔜 |
+| 07 | Calculadora de Notas com Estatísticas | Listas, estatística básica (média, mediana, desvio padrão), formatação de saída | 🔜 |
+
+### ⚙️ C
+
+| # | Projeto | Foco principal | Status |
+| --- | --- | --- | --- |
+| 02 | Conversor de Unidades Multi-Menu | Estruturas de decisão, laços, funções separadas por responsabilidade, `switch/case` para menu de opções | 🔜 |
+| 03 | Validador de Senha Forte | Manipulação de strings (vetores de `char`), contadores, laços `for`, funções da `ctype.h` | 🔜 |
+| 04 | Jogo de Adivinhação Inteligente | Função `rand()`/`srand()`, laços, lógica condicional, contadores | 🔜 |
+| 05 | Gerenciador de Tarefas em Memória (To-Do List Simples) | Vetores/structs, funções, manipulação de dados em memória, ponteiros básicos | 🔜 |
+| 06 | Calculadora de Notas com Estatísticas | Vetores, estatística básica (média, mediana, desvio padrão), formatação de saída com `printf` | 🔜 |
+
+### 🔧 C++
+
+| # | Projeto | Conceitos praticados | Status |
+| --- | --- | --- | --- |
+| 04 | Tabuada interativa | loops aninhados, formatação de saída | 🔜 |
+| 05 | Verificador de números primos | loops, otimização até √n, complexidade | 🔜 |
+| 06 | Calculadora de IMC | `double`, faixas com `else if` | 🔜 |
+| 07 | Sistema de médias escolares | arrays/`vector`, média, aprovação/reprovação | 🔜 |
+| 08 | Jogo da velha (texto) | matriz 3×3, verificação de vitória, turnos | 🔜 |
+| 09 | Agenda de contatos | `struct`, `vector`, busca | 🔜 |
+| 10 | Conversor de unidades/moedas | `map`, menus, validação de entrada | 🔜 |
+| 11 | Gerenciador de biblioteca | classes, `vector` de objetos, empréstimos | 🔜 |
+| 12 | Lista de tarefas com persistência | `fstream`, salvar/carregar em arquivo | 🔜 |
+| 13 | Jogo da forca | `std::string`, `set` de letras usadas | 🔜 |
+| 14 | Simulador de banco | classes, herança, polimorfismo | 🚧 Em andamento |
+| 15 | Parser de expressões matemáticas | pilha, precedência de operadores, recursão | 🔜 |
+| 16 | Controle de estoque | classes, `map`, relatórios | 🔜 |
+| 17 | Labirinto em texto | matriz, BFS/DFS, busca de caminho | 🔜 |
+| 18 | Estruturas de dados | lista ligada, pilha e fila com ponteiros brutos (`new`/`delete`) | 🔜 |
+| 19 | Cadastro de alunos com POO | classes, encapsulamento, `.h`/`.cpp` | 🔜 |
+| 20 | Cifra de César / criptografia simples | manipulação de `char`, aritmética modular | 🔜 |
 
 ---
 
