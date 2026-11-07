@@ -21,10 +21,10 @@ python3 main.py done 1                   # marca a tarefa 1 como concluída
 - [x] Comando `list`
 - [x] Comando `done <numero>`
 - [x] Mensagem de uso quando nenhum comando é passado
+- [x] Salvar as tarefas em arquivo (JSON) para não perder ao fechar o programa
 
 ## 🔜 Próximos passos
 
-- [ ] Salvar as tarefas em arquivo (JSON) para não perder ao fechar o programa
 - [ ] Mostrar a prioridade na listagem e ordenar por ela
 - [ ] Comando `remove <numero>`
 - [ ] Tratar erros de entrada (número inválido, título faltando)
