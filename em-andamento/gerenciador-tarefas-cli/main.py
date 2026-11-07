@@ -1,4 +1,8 @@
 import sys
+import json
+import os
+
+dados_arquivos = "tarefas.json"
 
 
 def criar_tarefa(titulo, prioridade="media"):
@@ -17,15 +21,34 @@ def listar_tarefas(tarefas):
 
 
 def concluir_tarefa(tarefas, numero):
-    tarefas[numero - 1]["feita"] = True
+    try:
+        tarefas[numero - 1]["feita"] = True
+        return True
+    except IndexError:
+        print("Erro: Número de tarefa inválido.")
+        return False
+
+
+def carregar_tarefas():
+    if not os.path.exists(dados_arquivos):
+        return []
+
+    try:
+        with open(dados_arquivos, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError:
+        return []
+
+
+def salvar_tarefas(tarefas):
+    with open(dados_arquivos, "w", encoding="utf-8") as f:
+        json.dump(tarefas, f, ensure_ascii=False, indent=4)
 
 
 def main():
-    tarefas = [
-        criar_tarefa("Limpar", "alta"),
-        criar_tarefa("Arrumar casa", "alta"),
-    ]
-    print("Gerenciador de tarefas v0.1")
+    tarefas = carregar_tarefas()
+
+    print("Gerenciador de tarefas v0.2")
 
     if len(sys.argv) > 1:
         comando = sys.argv[1].lower()
@@ -36,14 +59,25 @@ def main():
             else:
                 tarefa = criar_tarefa(titulo)
             tarefas.append(tarefa)
+
+            salvar_tarefas(tarefas)
+
             print(f"Tarefa adicionada: {titulo}")
 
         elif comando == "list":
             listar_tarefas(tarefas)
 
         elif comando == "done":
-            concluir_tarefa(tarefas, int(sys.argv[2]))
-            listar_tarefas(tarefas)
+            if len(sys.argv) < 3:
+                print("Erro: Informe o número da tarefa.")
+                return
+
+            numero_tarefa = int(sys.argv[2])
+
+            if concluir_tarefa(tarefas, numero_tarefa):
+                salvar_tarefas(tarefas)
+                print(f"Tarefa {numero_tarefa} marcada como concluída!")
+                listar_tarefas(tarefas)
 
         else:
             print(f"Comando desconhecido: {comando}")
