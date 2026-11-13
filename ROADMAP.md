@@ -294,7 +294,7 @@ Próximos exercícios das séries de fundamentos. Os já concluídos estão nos 
 
 | # | Projeto | Foco principal | Status |
 | --- | --- | --- | --- |
-| 02 | Conversor de Unidades Multi-Menu | Estruturas de decisão, laços, funções separadas por responsabilidade, `switch/case` para menu de opções | 🔜 |
+| 02 | Conversor de Unidades Multi-Menu | Estruturas de decisão, laços, funções separadas por responsabilidade, `switch/case` para menu de opções | 🚧 Em andamento |
 | 03 | Validador de Senha Forte | Manipulação de strings (vetores de `char`), contadores, laços `for`, funções da `ctype.h` | 🔜 |
 | 04 | Jogo de Adivinhação Inteligente | Função `rand()`/`srand()`, laços, lógica condicional, contadores | 🔜 |
 | 05 | Gerenciador de Tarefas em Memória (To-Do List Simples) | Vetores/structs, funções, manipulação de dados em memória, ponteiros básicos | 🔜 |
@@ -304,7 +304,7 @@ Próximos exercícios das séries de fundamentos. Os já concluídos estão nos 
 
 | # | Projeto | Conceitos praticados | Status |
 | --- | --- | --- | --- |
-| 04 | Tabuada interativa | loops aninhados, formatação de saída | 🔜 |
+| 04 | Tabuada interativa | loops aninhados, formatação de saída | 🚧 Em andamento |
 | 05 | Verificador de números primos | loops, otimização até √n, complexidade | 🔜 |
 | 06 | Calculadora de IMC | `double`, faixas com `else if` | 🔜 |
 | 07 | Sistema de médias escolares | arrays/`vector`, média, aprovação/reprovação | 🔜 |
@@ -314,7 +314,7 @@ Próximos exercícios das séries de fundamentos. Os já concluídos estão nos 
 | 11 | Gerenciador de biblioteca | classes, `vector` de objetos, empréstimos | 🔜 |
 | 12 | Lista de tarefas com persistência | `fstream`, salvar/carregar em arquivo | 🔜 |
 | 13 | Jogo da forca | `std::string`, `set` de letras usadas | 🔜 |
-| 14 | Simulador de banco | classes, herança, polimorfismo | 🚧 Em andamento |
+| 14 | Simulador de banco | classes, herança, polimorfismo | 🔜 |
 | 15 | Parser de expressões matemáticas | pilha, precedência de operadores, recursão | 🔜 |
 | 16 | Controle de estoque | classes, `map`, relatórios | 🔜 |
 | 17 | Labirinto em texto | matriz, BFS/DFS, busca de caminho | 🔜 |
